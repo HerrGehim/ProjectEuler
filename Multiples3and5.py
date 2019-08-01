@@ -11,5 +11,4 @@ while i < 1000:
         sum += i
     i += 1
 
-print("The sum of natural numbers that are multiples of 3 or 5 is")
-print(sum)
+print("The sum of natural numbers that are multiples of 3 or 5 is", sum)
