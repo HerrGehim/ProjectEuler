@@ -18,3 +18,4 @@ while sum < finish:
     fib2 = fib1 + fib2
 
 print('The sum of all even Fibonacci number up to four million is equal to', sum)
+
