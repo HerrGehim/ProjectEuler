@@ -11,11 +11,12 @@ fib2 = 2
 finish = 4000000
 sum = 0
 
-while sum < finish:
+while fib2 < finish:
     if fib2 % 2 == 0:
         sum += fib2
-    fib1 = fib1 + fib2
-    fib2 = fib1 + fib2
+    aux = fib1 + fib2
+    fib1 = fib2
+    fib2 = aux
 
 print('The sum of all even Fibonacci number up to four million is equal to', sum)
 
